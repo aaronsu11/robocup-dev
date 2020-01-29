@@ -12,7 +12,7 @@
 <node name="image_pub_sub_cpp" pkg="beginner_tutorials" type="image_pub_sub_cpp" output="screen" >
         <remap from="image" to="/usb_camera_node/image_raw"/>
 </node>
-<node name="image_view2_node" pkg="image_view" type="image_view" output="screen" >
-        <remap from="image" to="/image_converter/output_video"/>
+<!-- <node name="image_view2_node" pkg="image_view" type="image_view" output="screen" >
+        <remap from="image" to="/image_converter/output_video"/> -->
 </node>
 </launch>
